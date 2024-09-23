@@ -1,0 +1,20 @@
+yolov9文件夹下：
+..\data\mydata 文件夹下存放数据图片、标注图片，包括数据集增广前后
+..\paper_date 文件夹下存放数据集划分结果
+back.jpg list.jpg 为ui界面背景图片
+image_add.py 数据集增广代码
+image_rc.py  背景图片索引代码
+digital.py  应用界面代码，包括功能设计
+digital.ui 应用界面设计
+split_train_val.py 数据集划分
+train_dual.py 单辅助分支yolov9训练模型
+upload.py 数据上传至页面代码
+val_dual.py 验证集过程代码
+voc_label.py  将voc格式标注转换为yolo格式
+detect.py  模型推理
+..\uploads.py 用以存储上传的文件
+..\templates.py  保存与网页有关的html文件
+..\runs\train.py 保存训练结果
+..\runs\detect.py 保存推理结果
+..\utils\loss_tal_dual.py  损失函数文件
+general文件 line 904-905  注释可以训练模型，不注释可用于模型推理 
